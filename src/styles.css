@@ -1,0 +1,20 @@
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{margin:0;background:#f4f8fb;color:#0b3b78}
+.header{background:#0a4ea3;color:white;padding:12px;display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{height:60px;max-height:120px}
+.logo-large{height:100px;max-height:140px;margin-bottom:8px}
+.header h1{margin:0;font-size:18px}
+.nav{display:flex;gap:6px;padding:8px;background:#ffffff;border-bottom:1px solid #e6eefb}
+.nav button{background:transparent;border:1px solid #0a4ea3;color:#0a4ea3;padding:8px 10px;border-radius:4px;cursor:pointer}
+.nav button.active{background:#0a4ea3;color:white}
+.main{display:block;padding:12px}
+.card{background:white;padding:12px;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,0.08);margin-bottom:12px}
+.simple-table{width:100%;border-collapse:collapse}
+.simple-table th,.simple-table td{border:1px solid #eee;padding:6px;text-align:left}
+input, textarea, select {display:block;width:100%;padding:8px;margin:6px 0;border:1px solid #ddd;border-radius:4px}
+button {background:#0a4ea3;color:white;border:none;padding:8px 10px;border-radius:4px;cursor:pointer}
+.footer{padding:10px;text-align:center;color:#666;background:#fff;position:fixed;bottom:0;left:0;right:0}
+.login-screen{height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#eaf2ff,#ffffff)}
+.login-box{background:white;padding:20px;border-radius:6px;box-shadow:0 3px 8px rgba(0,0,0,0.12);width:420px;text-align:center}
+.msg{color:red;margin-top:6px}
